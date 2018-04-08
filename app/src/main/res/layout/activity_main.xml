@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobilecomputing.guptas.a173059002_hw5.MainActivity">
+
+    <TextView
+        android:id="@+id/trainFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="HelloWorld"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/trainFilePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trainFile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/trainFile" />
+
+    <Button
+        android:id="@+id/Train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trainFilePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/Train" />
+
+    <ProgressBar
+        android:id="@+id/progressTraining"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Train"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/trainprogressComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Train"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="HelloWorld"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/testFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressTraining"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="HelloWorld"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/testFilePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testFile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/testFile" />
+
+    <Button
+        android:id="@+id/Predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testFilePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/Predict" />
+
+    <ProgressBar
+        android:id="@+id/progressTesting"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Predict"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/testprogressComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Predict"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="HelloWorld"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testprogressComplete"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="HelloWorld"
+            android:visibility="gone" />
+
+    </ScrollView>
+</RelativeLayout>

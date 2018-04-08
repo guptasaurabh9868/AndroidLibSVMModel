@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">173059002_HW5</string>
+    <string name="trainFile">Training File</string>
+    <string name="testFile">Test File</string>
+    <string name="ConvertFile">Convert File</string>
+    <string name="Train">Train Model</string>
+    <string name="Predict">Test Model</string>
+</resources>
